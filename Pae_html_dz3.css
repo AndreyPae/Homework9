@@ -1,0 +1,115 @@
+.container{
+    height: 271px;
+    width: 680px;
+    margin: auto;
+    background: #DCDCDC;
+    padding: 50px;
+    display: flex;
+}
+
+.box{
+    width: 150px;
+    margin: 10px;
+    padding: 20px 0;
+    background: #fff;
+    transition: 1s;
+    border-radius: 5px;
+}
+
+.box:hover{
+    transform:  scale(1.28);
+}
+
+.box-red > hr {
+    margin-bottom: 10px;
+}
+
+.box > * {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.box > input {
+
+}
+
+.box > p {
+    font-weight: 800;
+    font-size: .7rem;
+    margin: 10px auto;
+}
+
+.box > p.price {
+    font-size: 2rem;
+    margin: 0 auto;
+}
+
+.box > p.price-description {
+    color: #D3D3D3;
+    margin: 0 auto 20px;
+}
+
+.box > p.heading {
+      margin-top: 0;
+}
+
+.box > input[type=button] {
+    margin: 20px auto 0;
+    text-align: center;
+    display: block;
+    width: auto;
+
+    background-color: #008000;
+    color: white;
+
+    border: none;
+    border-radius: 5px;
+
+    padding: 7px 24px;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: .7rem;
+
+}
+
+.box-red > hr{
+    border: none;
+    color: #DC143C;
+    background-color: #DC143C;
+    height: 2px;
+}
+.box-yellow > hr{
+    border: none;
+    color: #DC143C;
+    background-color: #FFD700;
+    height: 2px;
+}
+.box-blue > hr{
+    border: none;
+    color: #DC143C;
+    background-color: #4682B4;
+    height: 2px;
+}
+.box-green > hr{
+    border: none;
+    color: #DC143C;
+    background-color: #00FF7F;
+    height: 2px;
+}
+
+.box-red > input[type=button]{
+    background-color: #DC143C;
+}
+
+.box-yellow > input[type=button]{
+    background-color: #FFD700;
+}
+
+.box-blue > input[type=button]{
+    background-color: #4682B4;
+}
+
+.box-green > input[type=button]{
+    background-color: #00FF7F;
+}
